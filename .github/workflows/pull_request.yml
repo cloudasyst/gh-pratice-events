@@ -3,7 +3,8 @@ name: Feature to Dev Workflow
 on:
   pull_request:
     branches:
-      - dev*
+      - development
+  workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
