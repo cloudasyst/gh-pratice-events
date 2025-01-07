@@ -1,0 +1,13 @@
+name: Dev to Master Workflow
+
+on:
+  pull_request:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: pulling code
+        run : echo "nothing is happening"
+  
